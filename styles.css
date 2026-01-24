@@ -1,0 +1,144 @@
+:root {
+    --mc-green: #5aa35a;
+    --mc-dirt: #866043;
+    --mc-stone: #7a7a7a;
+    --mc-dark: #313131;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background-image: url('dadbe6d0-6c66-4f98-bc87-e4f31e629879.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: var(--mc-green);
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 8px solid var(--mc-dirt);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 4px 4px var(--mc-dark);
+}
+
+.tagline {
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.package {
+    background-color: var(--mc-stone);
+    border: 4px solid #fff;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.2s;
+    box-shadow: 8px 8px 0px var(--mc-dark);
+}
+
+.package:hover {
+    transform: translateY(-10px);
+}
+
+.package h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: #ffeb3b;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--mc-green);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 3px solid #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4caf50;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #444;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #222;
+}
+
+/* Premium Package Styles */
+.package.premium {
+    border-color: #9e9e9e;
+    background-color: #4a4a4a;
+}
+
+.package.premium h2 {
+    color: #d1c4e9;
+}
+
+.package.premium .btn {
+    background-color: #7e57c2;
+}
+
+/* Deluxe Package Styles */
+.package.deluxe {
+    border-color: #ffd700;
+    background-color: #3e2723;
+}
+
+.package.deluxe h2 {
+    color: #ffd700;
+}
+
+.package.deluxe .btn {
+    background-color: #ff9800;
+}

@@ -1,0 +1,37 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "name": "Basic",
+      "emoji": "🏠",
+      "price": "5 Diamonds",
+      "description": "A cozy starter home or storage shed. Includes basic materials like wood and cobble.",
+      "class": "basic",
+      "buttonText": "Order Now"
+    },
+    {
+      "id": 2,
+      "name": "Premium",
+      "emoji": "🏰",
+      "price": "1 Netherite Ingot",
+      "description": "A medium-sized base or detailed shop. Custom palette and basic landscaping included.",
+      "class": "premium",
+      "buttonText": "Order Now"
+    },
+    {
+      "id": 3,
+      "name": "Deluxe",
+      "emoji": "👑",
+      "price": "2 Netherite Ingots + Food",
+      "description": "Mega-base level builds. Includes redstone doors, interior design, and full terraforming!",
+      "class": "deluxe",
+      "buttonText": "Order Now"
+    }
+  ],
+  "company": {
+    "name": "Papaya's Building Services",
+    "tagline": "We build your dreams, block by block.",
+    "year": 2026,
+    "footer": "Serving all Survival & Creative Realms"
+  }
+}
